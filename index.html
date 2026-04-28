@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Suraksha - Protecting You from Cyber Threats</title>
+    <meta name="description"
+        content="Cyber Suraksha: Advanced AI-powered cybercrime awareness, detection, and reporting platform.">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts for Modern Tech Look -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@400;500;600;700&family=Inter:wght@300;400;500&display=swap"
+        rel="stylesheet">
+
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Background Grid Effect -->
+    <div class="grid-background"></div>
+    <div class="glow-overlay"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fa-solid fa-shield-halved"></i>
+                <span>Cyber Suraksha</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#how-it-works">Process</a></li>
+                <li><a href="#tips">Awareness</a></li>
+            </ul>
+            <a href="#helpline" class="btn btn-outline btn-sm">Helpline 1930</a>
+
+            <!-- Mobile Menu Toggle -->
+            <div class="mobile-menu-btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <div class="status-badge">
+                <span class="pulse-dot"></span> System Secure | Command Center Online
+            </div>
+            <h1 class="glitch" data-text="Cyber Suraksha">Cyber Suraksha</h1>
+            <h2>Protecting You from Cyber Threats</h2>
+            <p>Your first line of defense against digital fraud. AI-powered scam detection, instant verification, and
+                seamless reporting to national authorities.</p>
+
+            <div class="hero-cta">
+                <a href="#features" class="btn btn-primary glow-btn">
+                    <i class="fa-solid fa-radar"></i> Initiate Scan
+                </a>
+                <a href="#helpline" class="btn btn-secondary">
+                    <i class="fa-solid fa-phone-volume"></i> Report Incident
+                </a>
+            </div>
+        </div>
+
+        <!-- Hero Visuals -->
+        <div class="hero-visual">
+            <div class="radar">
+                <div class="sweep"></div>
+                <div class="target t1"></div>
+                <div class="target t2"></div>
+                <div class="target t3"></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Features Section -->
+    <section id="features" class="section">
+        <div class="section-header">
+            <h2>Command Center Tools</h2>
+            <p>Advanced utilities for identifying and mitigating cyber threats</p>
+        </div>
+
+        <div class="features-grid">
+            <!-- Feature 1 -->
+            <div class="feature-card glass-panel" onclick="openModal('scanner-modal')">
+                <div class="feature-icon">
+                    <i class="fa-solid fa-fingerprint"></i>
+                </div>
+                <h3>ID Verification</h3>
+                <p>Check suspicious phone numbers, email addresses, or UPI IDs against our real-time threat database.
+                </p>
+                <span class="feature-action">Launch Tool <i class="fa-solid fa-arrow-right"></i></span>
+            </div>
+
+            <!-- Feature 2 -->
+            <div class="feature-card glass-panel" onclick="openModal('ai-modal')">
+                <div class="feature-icon">
+                    <i class="fa-solid fa-brain"></i>
+                </div>
+                <h3>AI Scam Detection</h3>
+                <p>Upload suspicious SMS text, WhatsApp messages, or screenshots for instant AI analysis.</p>
+                <span class="feature-action">Launch Tool <i class="fa-solid fa-arrow-right"></i></span>
+            </div>
+
+            <!-- Feature 3 -->
+            <div class="feature-card glass-panel">
+                <div class="feature-icon alert-icon">
+                    <i class="fa-solid fa-triangle-exclamation"></i>
+                </div>
+                <h3>Report to 1930</h3>
+                <p>Direct integration and step-by-step guidance for reporting to the National Cyber Crime portal.</p>
+                <a href="https://cybercrime.gov.in" target="_blank" class="feature-action">Go to Portal <i
+                        class="fa-solid fa-external-link-alt"></i></a>
+            </div>
+
+            <!-- Feature 4 -->
+            <div class="feature-card glass-panel">
+                <div class="feature-icon">
+                    <i class="fa-solid fa-user-ninja"></i>
+                </div>
+                <h3>Anonymous Reporting</h3>
+                <p>Share details about a new scam anonymously to help protect the community without revealing identity.
+                </p>
+                <span class="feature-action" onclick="openModal('anonymous-modal')">Report Now <i
+                        class="fa-solid fa-arrow-right"></i></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="section alt-bg">
+        <div class="section-header">
+            <h2>Operation Protocols</h2>
+            <p>Standard operating procedure for threat mitigation</p>
+        </div>
+
+        <div class="timeline">
+            <!-- Step 1 -->
+            <div class="timeline-item">
+                <div class="timeline-dot">1</div>
+                <div class="timeline-content glass-panel">
+                    <h3>Detect & Verify</h3>
+                    <p>Receive a suspicious message? Don't click any links. Copy the sender's number, email, or message
+                        text and run it through our AI Scanner.</p>
+                </div>
+            </div>
+
+            <!-- Step 2 -->
+            <div class="timeline-item">
+                <div class="timeline-dot">2</div>
+                <div class="timeline-content glass-panel">
+                    <h3>Analyze Threat Level</h3>
+                    <p>Our systems will cross-reference the data with known scam databases and use AI to determine the
+                        probability of fraud.</p>
+                </div>
+            </div>
+
+            <!-- Step 3 -->
+            <div class="timeline-item">
+                <div class="timeline-dot">3</div>
+                <div class="timeline-content glass-panel">
+                    <h3>Report & Block</h3>
+                    <p>If flagged as a threat, block the sender immediately and file a report through the 1930 helpline
+                        to prevent them from targeting others.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cyber Awareness Tips -->
+    <section id="tips" class="section">
+        <div class="section-header">
+            <h2>Threat Intelligence</h2>
+            <p>Latest cybersecurity advisories and awareness tips</p>
+        </div>
+
+        <div class="tips-container">
+            <div class="tip-card glass-panel">
+                <div class="tip-image">
+                    <i class="fa-solid fa-mobile-screen-button"></i>
+                </div>
+                <div class="tip-content">
+                    <h4>APK Frauds</h4>
+                    <p>Never install apps from unverified links sent via WhatsApp or SMS. They often contain malware to
+                        steal OTPs.</p>
+                </div>
+            </div>
+
+            <div class="tip-card glass-panel">
+                <div class="tip-image">
+                    <i class="fa-solid fa-money-bill-transfer"></i>
+                </div>
+                <div class="tip-content">
+                    <h4>UPI Request Scams</h4>
+                    <p>You only need to enter your UPI PIN to SEND money, never to RECEIVE money. Ignore "Click to
+                        receive" links.</p>
+                </div>
+            </div>
+
+            <div class="tip-card glass-panel">
+                <div class="tip-image">
+                    <i class="fa-solid fa-briefcase"></i>
+                </div>
+                <div class="tip-content">
+                    <h4>Part-time Job Traps</h4>
+                    <p>Beware of WhatsApp messages offering easy money for liking YouTube videos or reviewing hotels.
+                        They are Ponzi schemes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Emergency Helpline Section -->
+    <section id="helpline" class="helpline-section">
+        <div class="helpline-container glass-panel glow-border">
+            <div class="helpline-info">
+                <h2><i class="fa-solid fa-truck-medical"></i> Emergency Response</h2>
+                <p>Have you already lost money to a cyber fraud? Time is critical.</p>
+                <ul class="action-list">
+                    <li><i class="fa-solid fa-check text-cyan"></i> Call 1930 immediately to freeze the transaction</li>
+                    <li><i class="fa-solid fa-check text-cyan"></i> Do NOT delete the chat, SMS, or transaction history
+                    </li>
+                    <li><i class="fa-solid fa-check text-cyan"></i> Gather screenshots of profiles and messages</li>
+                </ul>
+            </div>
+            <div class="helpline-action">
+                <div class="number-display">1930</div>
+                <p>National Cyber Crime Reporting Portal</p>
+                <a href="tel:1930" class="btn btn-danger pulse-btn">
+                    <i class="fa-solid fa-phone"></i> CALL NOW
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <i class="fa-solid fa-shield-halved"></i>
+                <span>Cyber Suraksha</span>
+            </div>
+            <p>Empowering citizens against digital threats. This is an awareness platform.</p>
+            <div class="social-links">
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Cyber Suraksha. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Modals for Tools -->
+
+    <!-- Scanner Modal -->
+    <div id="scanner-modal" class="modal">
+        <div class="modal-content glass-panel">
+            <span class="close-btn" onclick="closeModal('scanner-modal')">&times;</span>
+            <h2><i class="fa-solid fa-fingerprint"></i> Threat Scanner</h2>
+            <p>Enter a phone number, email, or UPI ID to check against our threat database.</p>
+
+            <div class="tool-form">
+                <div class="input-group">
+                    <select id="scan-type" class="cyber-input">
+                        <option value="phone">Phone Number</option>
+                        <option value="email">Email Address</option>
+                        <option value="upi">UPI ID</option>
+                        <option value="url">Website URL</option>
+                    </select>
+                </div>
+                <div class="input-group">
+                    <input type="text" id="scan-input" class="cyber-input" placeholder="Enter target data...">
+                </div>
+                <button class="btn btn-primary glow-btn full-width" onclick="simulateScan()">
+                    <i class="fa-solid fa-search"></i> Initiate Scan
+                </button>
+            </div>
+
+            <div id="scan-results" class="results-area hidden">
+                <!-- Results injected via JS -->
+            </div>
+        </div>
+    </div>
+
+    <!-- AI Detection Modal -->
+    <div id="ai-modal" class="modal">
+        <div class="modal-content glass-panel">
+            <span class="close-btn" onclick="closeModal('ai-modal')">&times;</span>
+            <h2><i class="fa-solid fa-brain"></i> AI Pattern Analyzer</h2>
+            <p>Paste suspicious messages or upload screenshots for AI threat assessment.</p>
+
+            <div class="tool-tabs">
+                <button class="tab-btn active" onclick="switchTab('text-tab')">Text Analysis</button>
+                <button class="tab-btn" onclick="switchTab('image-tab')">Image Analysis</button>
+            </div>
+
+            <div id="text-tab" class="tab-content active">
+                <textarea class="cyber-input" rows="5"
+                    placeholder="Paste the suspicious message, SMS, or email content here..."></textarea>
+                <button class="btn btn-primary glow-btn full-width mt-3" onclick="simulateAI()">
+                    <i class="fa-solid fa-microchip"></i> Analyze Text
+                </button>
+            </div>
+
+            <div id="image-tab" class="tab-content hidden">
+                <div class="upload-area">
+                    <i class="fa-solid fa-cloud-arrow-up"></i>
+                    <p>Drag & drop screenshot or click to browse</p>
+                    <input type="file" hidden id="file-upload">
+                    <button class="btn btn-outline btn-sm mt-2"
+                        onclick="document.getElementById('file-upload').click()">Browse Files</button>
+                </div>
+                <button class="btn btn-primary glow-btn full-width mt-3" onclick="simulateAI()">
+                    <i class="fa-solid fa-microchip"></i> Analyze Image
+                </button>
+            </div>
+
+            <div id="ai-results" class="results-area hidden">
+                <!-- Results injected via JS -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Anonymous Report Modal -->
+    <div id="anonymous-modal" class="modal">
+        <div class="modal-content glass-panel">
+            <span class="close-btn" onclick="closeModal('anonymous-modal')">&times;</span>
+            <h2><i class="fa-solid fa-user-ninja"></i> Secure Reporting Channel</h2>
+            <p>Submit intelligence anonymously to help update our threat database.</p>
+
+            <div class="tool-form">
+                <div class="input-group">
+                    <label>Scam Category</label>
+                    <select class="cyber-input">
+                        <option>Financial / Bank Fraud</option>
+                        <option>Job / Task Scam</option>
+                        <option>Extortion / Sextortion</option>
+                        <option>Customer Care Fraud</option>
+                        <option>Other</option>
+                    </select>
+                </div>
+                <div class="input-group">
+                    <label>Attacker Details (Number/Email/UPI)</label>
+                    <input type="text" class="cyber-input" placeholder="E.g., +91 9876543210">
+                </div>
+                <div class="input-group">
+                    <label>Modus Operandi (How did they trick you?)</label>
+                    <textarea class="cyber-input" rows="4" placeholder="Describe the incident..."></textarea>
+                </div>
+                <button class="btn btn-secondary full-width mt-3" onclick="submitReport()">
+                    <i class="fa-solid fa-paper-plane"></i> Submit Securely
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
